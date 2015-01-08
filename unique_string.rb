@@ -14,5 +14,5 @@ def unique_characters? (str)
     return false if characters.has_key? key
     characters[key] = true
   end
-    true
-  end
+  true
+end
